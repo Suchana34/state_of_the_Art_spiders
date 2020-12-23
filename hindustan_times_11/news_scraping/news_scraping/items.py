@@ -39,7 +39,7 @@ def filter_num(value):
 #     return value.strip()
 
 
-class NewsScrapingItem(JsonSchemaItem):
+class ValidateItem(JsonSchemaItem):
     jsonschema =     {
         "$schema": "http://json-schema.org/draft-04/schema#",
         "title": "News",
